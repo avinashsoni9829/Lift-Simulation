@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded",function(){
         const division = document.getElementById("div1");
         division.append(heading);
             
-         }
+     }
          
    
      

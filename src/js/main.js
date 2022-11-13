@@ -5,7 +5,16 @@ function submitDetails(event) {
 
     sessionStorage.setItem("floor",no_of_floors.value);
     sessionStorage.setItem("lift",no_of_lifts.value);
+
+    if(no_of_floors.value > no_of_lifts.value){
+        document.getElementById("errorMessage").style.visibility  = "hidden";
+    }
+
+    if(no_of_floors.value < no_of_lifts.value){
+        document.getElementById("errorMessage").style.visibility  = "visible";
+    }
     
-    window.location.href="http://127.0.0.1:5500/src/pages/stimulator.html";
+  
+   
 }
 
