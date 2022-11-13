@@ -2,3 +2,15 @@
     color: red;
     visibility: hidden;
 }
+.floor{
+    text-align: right; 
+}
+
+.btn{
+    margin-right: 3px;
+}
+.line{
+    margin: 2rem auto;
+    height: 1px;
+    background: black;
+}
